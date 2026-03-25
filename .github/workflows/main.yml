@@ -16,7 +16,7 @@ jobs:
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v3
         with:
-          root_file: resume.tex
+          root_file: CV.tex
 
       - name: Prepare output
         run: mkdir -p _site && cp CV.pdf _site/
