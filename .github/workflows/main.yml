@@ -19,7 +19,7 @@ jobs:
           root_file: resume.tex
 
       - name: Prepare output
-        run: mkdir -p _site && cp resume.pdf _site/
+        run: mkdir -p _site && cp CV.pdf _site/
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
